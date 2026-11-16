@@ -10,6 +10,7 @@ _FALLBACK_DIM = 768  # all-mpnet-base-v2
 _active_model = None
 _model_type: str | None = None  # "gemini" or "fallback"
 
+
 # ── Model initialisation ───────────────────────────────────────────────────────
 
 def _probe_gemini():
